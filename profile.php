@@ -79,14 +79,16 @@ if (mysqli_num_rows($result) === 1) {
        <div class=""><b></b></div>
       <div class="navbar">
         
-        <a class="nav-link text-white" href="#priceSection" id="priceLink">Register</a>
-        <a class="nav-link  text-white" href="#aboutSection" id="aboutLink">About Us</a>
+        <a class="nav-link text-white" href="index.php#priceSection" id="priceLink">Register</a>
+        <a class="nav-link text-white" href="index.php#aboutSection" id="aboutLink">About Us</a>
 
-        <a class="nav-link  text-white" href="#servicesSection" id="servicesLink"
+        <a class="nav-link text-white" href="index.php#servicesSection" id="servicesLink"
           >Services</a
         >
 
-        <a class="nav-link  text-white" href="#contactSection" id="contactLink">Contact</a>
+        
+
+        <a class="nav-link text-white" href="index.php#contactSection" id="contactLink">Contact</a>
 
          <?php if ($is_logged_in): ?>
                 <a class="nav-link text-white" href="log_out.php" id="logoutLink">Logout</a>
