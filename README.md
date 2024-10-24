@@ -19,13 +19,13 @@ The primary goal of this project is to provide a user-friendly platform where sc
   
 ## :star: Key Features
 
-- Registration and Login: Users can sign up and log in to the application.
+- **Registration and Login:** Users can sign up and log in to the application.
 
-- Profile Management: Users can update their profile information.
+- **Profile Management:** Users can update their profile information.
 
-- Secure Password Hashing: Passwords are securely hashed using algorithms like bcrypt
+- **Secure Password Hashing:** Passwords are securely hashed using algorithms like bcrypt
 
-- SQL Injection Prevention: User inputs are sanitized using mysqli_real_escape_string to prevent SQL injection.
+- **SQL Injection Prevention:** User inputs are sanitized using mysqli_real_escape_string to prevent SQL injection.
 
 ## :wrench: Built With
 
