@@ -112,7 +112,7 @@ cd phpProjectFullVersion
 ## :zap: Usage
 #### 1. Go to ```http://localhost/phpProjectFullVersion/index.php```
 #### 2. Register a new account, and sign in with an existing account.
-#### 3. Navigate your accout and update your information/.
+#### 3. Navigate your accout and update your information.
 
 
 
