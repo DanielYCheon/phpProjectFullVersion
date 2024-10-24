@@ -9,6 +9,7 @@ The primary goal of this project is to provide a user-friendly platform where sc
 
 
 
+
 ## :beginner:  Overview
 
 - The "FindMyProfessor" service within the application allows users to register for a specific field and log in to access their accounts. Once logged in, users can update their profile information, including personal details.
@@ -26,6 +27,10 @@ The primary goal of this project is to provide a user-friendly platform where sc
 - **Secure Password Hashing:** Passwords are securely hashed using algorithms like bcrypt
 
 - **SQL Injection Prevention:** User inputs are sanitized using mysqli_real_escape_string to prevent SQL injection.
+
+  ![Animation](https://github.com/user-attachments/assets/df7e6b60-5a6b-41f0-9ff9-9444d89be5bb)
+  ![done](https://github.com/user-attachments/assets/b846c449-290f-4854-8b0c-2ffb4b187296)
+
 
 ## :wrench: Built With
 
@@ -80,6 +85,10 @@ WAMP Stack - A Windows-based stack that includes Apache, MySQL, and PHP for loca
     user_id VARCHAR(50) NOT NULL UNIQUE,
     user_pass VARCHAR(255) NOT NULL );
   ```
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3c61aef0-810a-4dca-9390-236c43230e42"><br><br>
+</p>
 ### 3. Clone the repository
 ```git
 git clone https://github.com/DanielYCheon/phpProjectFullVersion.git
