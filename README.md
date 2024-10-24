@@ -22,6 +22,8 @@ The primary goal of this project is to provide a user-friendly platform where sc
 
 - **Registration and Login:** Users can sign up and log in to the application.
 
+- **Session:** Managed to preserve user authentication across multiple pages, ensuring secure access to account features
+
 - **Profile Management:** Users can update their profile information.
 
 - **Secure Password Hashing:** Passwords are securely hashed using algorithms like bcrypt
