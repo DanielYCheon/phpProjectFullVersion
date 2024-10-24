@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
         if ($result) {
             echo "<script>
                     alert('SUCCESSFULLY information stored in database');
-                    window.location.href = 'index.html';
+                    window.location.href = 'index.php';
                   </script>";
         } else {
             echo "Fail to add information: " . mysqli_error($db);
@@ -72,7 +72,7 @@ if (isset($_POST['submit'])) {
             <input type="password" placeholder="Confirm Password" class="input" name="user_pass_confirm" required />
             <button class="btn" name="submit">Sign Up</button>
         </form>
-        <div style="border:2px solid purple; padding:15px;width:40%;color:red;text-align:center;" name="error">
+        <div style="border:2px solid hide; padding:15px;width:40%;color:red;text-align:center;" name="error">
             <?php echo isset($_GET['error']) ? $_GET['error'] : ''; ?>
         </div>
     </div>

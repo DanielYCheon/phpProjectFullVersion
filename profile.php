@@ -89,7 +89,7 @@ if (mysqli_num_rows($result) === 1) {
         <a class="nav-link  text-white" href="#contactSection" id="contactLink">Contact</a>
 
          <?php if ($is_logged_in): ?>
-                <a class="nav-link text-white" href="profile.php" id="logoutLink">Log Out</a>
+                <a class="nav-link text-white" href="log_out.php" id="logoutLink">Logout</a>
             <?php else: ?>
                 <a class="nav-link" href="sign_in.php" id="signInLink">Sign In</a>
             <?php endif; ?>

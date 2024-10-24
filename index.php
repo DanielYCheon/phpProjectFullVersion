@@ -30,9 +30,10 @@ $is_logged_in = isset($_SESSION['user_id']);
         <a class="nav-link" href="#contactSection" id="contactLink">Contact</a>
 
          <?php if ($is_logged_in): ?>
-                <a class="nav-link" href="profile.php" id="logoutLink">Profile</a>
+                <a class="nav-link" href="profile.php" id="accountLink">Account</a>
+                <a class="nav-link" href="log_out.php" id="logoutLink">Logout</a>
             <?php else: ?>
-                <a class="nav-link" href="sign_in.php" id="signInLink">Sign In</a>
+                <a class="nav-link" href="sign_in.php" id="signInLink">Sign in</a>
             <?php endif; ?>
             
             
@@ -62,7 +63,7 @@ $is_logged_in = isset($_SESSION['user_id']);
     <div class="rela-block welcome-section">
       <div class="abs-cent-text welcome-text">
         <h1 class="big-text">Welcome</h1>
-        <profile.php/>sadfasdf
+        
 
         <p>
           We at <b>Find my Professor</b> focus on finding highly qualified

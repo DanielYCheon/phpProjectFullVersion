@@ -1,11 +1,9 @@
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Orbitron:700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
-html{
-scroll-behavior: smooth;
- 
+html {
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -15,7 +13,7 @@ a {
 }
 body {
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 2px;
@@ -23,11 +21,10 @@ body {
 }
 .rela-block {
   display: block;
-  position:relative;
+  position: relative;
   text-align: center;
   box-sizing: border-box;
   overflow: hidden;
-  
 }
 .floated {
   position: relative;
@@ -51,7 +48,7 @@ body {
 .orbitron {
   display: inline-block;
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   letter-spacing: 0px;
   line-height: 32px;
@@ -85,24 +82,21 @@ body {
   left: 0;
   right: 0;
   padding: 0 6%;
- background-color: #000000;
-  
-  
-
+  background-color: #000000;
 }
 .nav-bar.scrolled {
   height: 80px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .nav-logo {
   position: absolute;
   top: 50%;
   left: 6%;
   transform: translateY(-50%);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   letter-spacing: 0px;
-  color: #DC981B;
+  color: #dc981b;
   transition: 0.4s ease;
   cursor: pointer;
 }
@@ -111,7 +105,6 @@ body {
   top: 50%;
   right: 6%;
   transform: translateY(-50%);
- 
 }
 .nav-link {
   font-size: 20px;
@@ -120,7 +113,7 @@ body {
   font-weight: 500;
   padding: 0 12px;
   transition: 0.4s ease;
-   color: #DC981B;
+  color: #dc981b;
 }
 .nav-link.active,
 .nav-link:hover {
@@ -128,9 +121,9 @@ body {
 }
 .top-section {
   height: 100vh;
-  background: url("https://cdn.glitch.global/52ba1065-e108-4e81-b597-1ecb711dff5f/english-classroom.png?v=1670187218989") no-repeat center;
+  background: url("https://cdn.glitch.global/52ba1065-e108-4e81-b597-1ecb711dff5f/english-classroom.png?v=1670187218989")
+    no-repeat center;
   background-size: cover;
-  
 }
 .grad-back::before {
   content: "";
@@ -139,7 +132,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(transparent, rgba(0,0,0,0.9));
+  background: radial-gradient(transparent, rgba(0, 0, 0, 0.9));
 }
 .top-text {
   color: #ffff;
@@ -153,7 +146,7 @@ body {
   font-weight: 400;
 }
 .big-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 58px;
   line-height: 72px;
@@ -161,7 +154,7 @@ body {
   margin-bottom: 60px;
 }
 .half-big-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   line-height: 48px;
@@ -221,7 +214,8 @@ body {
 }
 .welcome-section {
   height: 520px;
-  background: url("http://www.exlservice.com/wp-content/uploads/2015/09/FA-Business-Services-Hero-2.jpg") no-repeat left top;
+  background: url("http://www.exlservice.com/wp-content/uploads/2015/09/FA-Business-Services-Hero-2.jpg")
+    no-repeat left top;
   background-size: 1100px 660px;
 }
 .welcome-section::before {
@@ -233,7 +227,6 @@ body {
   bottom: 0;
   /* background: linear-gradient(to left, #2a52be 10%, transparent); */
   background: #6a994e;
-  
 }
 .welcome-section .orbitron {
   font-size: 16px;
@@ -297,9 +290,9 @@ body {
 }
 .about-us-section {
   padding: 250px 0 80px;
-  background-color: #E4CFA6;
+  background-color: #e4cfa6;
 }
-.about-us-section> p {
+.about-us-section > p {
   display: block;
   position: relative;
   width: 65%;
@@ -323,7 +316,7 @@ body {
   width: 90%;
 }
 .small-header {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   line-height: 28px;
@@ -347,7 +340,7 @@ body {
   line-height: 30px;
 }
 .bottom-right-side p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 3px;
@@ -379,13 +372,13 @@ body {
 
 .services-section {
   padding: 220px 0 120px;
-  background-color:#EFEBE0;
+  background-color: #efebe0;
 }
 .service-row {
   height: 400px;
   max-width: 1300px;
   margin: auto;
-  background-color: #EFEBE0;
+  background-color: #efebe0;
 }
 .service-row-half {
   height: 100%;
@@ -396,7 +389,8 @@ body {
   margin-bottom: 25px;
 }
 .service-row-half.grey-back {
-  background: url("https://dnbfeed.no/wp-content/uploads/2015/08/city-sunny-buildings-skyscrapers-e1440501856970-624x284.jpg") no-repeat center;
+  background: url("https://dnbfeed.no/wp-content/uploads/2015/08/city-sunny-buildings-skyscrapers-e1440501856970-624x284.jpg")
+    no-repeat center;
   background-size: cover;
   filter: grayscale(1);
 }
@@ -409,24 +403,26 @@ body {
   width: 150px;
   font-size: 100px;
   line-height: 150px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .service-row-half.black-back .abs-cent-text.wordpress {
-  background: url("http://www.contextureintl.com/wp-content/uploads/2015/01/wordpress-logo-notext-cmyk.png") no-repeat center;
+  background: url("http://www.contextureintl.com/wp-content/uploads/2015/01/wordpress-logo-notext-cmyk.png")
+    no-repeat center;
   background-size: cover;
 }
 .service-row-half.black-back .abs-cent-text.star {
-  background: url("http://www.stickerupper.com/images/detailed/star-2-sticker.gif") no-repeat center;
+  background: url("http://www.stickerupper.com/images/detailed/star-2-sticker.gif")
+    no-repeat center;
   background-size: cover;
 }
 .service-row-half.black-back .abs-cent-text.weird-one {
   width: 300px;
 }
 .our-plans-section {
-  background-color: #99B1B3;
+  background-color: #99b1b3;
   padding: 250px 0 120px;
 }
-.our-plans-section> p {
+.our-plans-section > p {
   position: relative;
   width: 65%;
   margin: 0 auto 120px;
@@ -470,13 +466,12 @@ body {
 
 .contact-section {
   padding: 220px 0 120px;
-  background-color:#99B1B3;
+  background-color: #99b1b3;
 }
-.contact-section> p {
+.contact-section > p {
   width: 90%;
   max-width: 900px;
   margin: 0 auto 120px;
-  
 }
 .contact-form-container {
   max-width: 1300px;
@@ -524,7 +519,7 @@ body {
 .contact-input {
   width: 85%;
   margin: 8px auto;
- font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 18px;
   padding: 10px;
@@ -541,7 +536,7 @@ body {
 }
 .footer-section {
   padding: 75px 0;
-   background: #6a994e;
+  background: #6a994e;
   color: #fff;
 }
 .footer-section .small-header {
@@ -573,16 +568,20 @@ body {
   transition: 0.3s cubic-bezier(0.3, 0.2, 0, 2.5);
 }
 .social-button.twitter-button {
-  background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/twitter-square-social-media-256.png") no-repeat center;
+  background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/twitter-square-social-media-256.png")
+    no-repeat center;
 }
 .social-button.facebook-button {
-  background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/facebook-square-social-media-256.png") no-repeat center;
+  background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/facebook-square-social-media-256.png")
+    no-repeat center;
 }
 .social-button.instagram-button {
-  background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/instagram-square-social-media-256.png") no-repeat center;
+  background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/instagram-square-social-media-256.png")
+    no-repeat center;
 }
 .social-button.behance-button {
-  background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/behance-square-social-media-256.png") no-repeat center;
+  background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/behance-square-social-media-256.png")
+    no-repeat center;
 }
 @media screen and (max-width: 1300px) {
   .test-left .half-big-text {
@@ -595,11 +594,10 @@ body {
     font-size: 50px;
     line-height: 50px;
     letter-spacing: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   .nav-logo {
     left: 4%;
-    
   }
   .nav-links-container {
     right: 4%;
@@ -620,7 +618,6 @@ body {
   }
   .nav-logo {
     left: 50px;
-    
   }
   .nav-links-container {
     width: 140px;
@@ -670,7 +667,6 @@ body {
     height: 50%;
     width: 100%;
   }
-
 
   .contact-half {
     width: 100%;
@@ -750,26 +746,20 @@ body {
   }
 }
 
-		input[type="Find your sub"]{
-			font-size: 20px;
-			height: 40px;
-			background-color: white;
-      text-align:center;
-      border-radius: 10px solid black;
+input[type="Find your sub"] {
+  font-size: 20px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px solid black;
+}
 
-		}
+input[type="Find your sub"]:hover {
+  color: white;
+  background-color: grey;
+}
 
-		input[type="Find your sub"]:hover{
-			color:white;	
-			background-color: grey;	
-		}
-
-
-
-
-
-fa-circle-user{
+fa-circle-user {
   font-size: 200px;
   size: 50px;
 }
-
