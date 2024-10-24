@@ -91,6 +91,7 @@ WAMP Stack - A Windows-based stack that includes Apache, MySQL, and PHP for loca
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3c61aef0-810a-4dca-9390-236c43230e42"><br><br>
 </p>
+
 ### 3. Clone the repository
 ```git
 git clone https://github.com/DanielYCheon/phpProjectFullVersion.git
